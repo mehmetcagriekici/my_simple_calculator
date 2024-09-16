@@ -1,0 +1,22 @@
+.error {
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  grid-column-start: 5;
+  grid-column-end: 13;
+
+  background-color: #ee1234;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+  color: #eee;
+}
+
+@media (min-width: 768px) {
+  .error {
+    font-size: 1.6rem;
+  }
+}
